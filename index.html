@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PollenHours</title>
+  <meta name="description" content="PollenHours is a Termux pipeline for AI video creation with prompts, image generation, and final MP4 rendering on Android." />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+    h1, h2 {
+      color: #ffffff;
+    }
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 14px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .muted {
+      color: #9da7b3;
+    }
+    code, pre {
+      background: #0b0f14;
+      color: #c9d1d9;
+      border-radius: 10px;
+    }
+    code {
+      padding: 2px 6px;
+    }
+    pre {
+      padding: 16px;
+      overflow-x: auto;
+    }
+    a {
+      color: #58a6ff;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #238636;
+      color: white;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="badge">Built with Pollinations.ai</div>
+    <h1>PollenHours</h1>
+    <p class="muted">
+      EN: A Termux pipeline to create AI videos automatically: generates prompts, generates images, and renders the final video.<br>
+      PT-BR: Pipeline em Termux para criar vídeos automaticamente com IA: gera prompts, gera imagens e monta o vídeo final.
+    </p>
+
+    <div class="card">
+      <h2>🇺🇸 English</h2>
+      <p><strong>PollenHours</strong> is a mobile-first AI video pipeline designed to run on <strong>Termux (Android)</strong>.</p>
+      <p>It automates three main steps:</p>
+      <ol>
+        <li>Generate prompts from a script</li>
+        <li>Generate AI images in batch</li>
+        <li>Render the final MP4 video on Android</li>
+      </ol>
+
+      <p><strong>Workflow</strong></p>
+      <ul>
+        <li><code>roteiro.txt</code> → base script</li>
+        <li><code>gerar_prompts.py</code> → creates prompts</li>
+        <li><code>gerar_imagens_g4f.py</code> → generates/downloads images</li>
+        <li><code>editar_video.py</code> → renders final MP4</li>
+      </ul>
+
+      <p><strong>Main features</strong></p>
+      <ul>
+        <li>Automatic prompt generation</li>
+        <li>Batch image generation</li>
+        <li>Per-image timing logs</li>
+        <li>16:9 image preparation</li>
+        <li>MP4 export on Android</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🇧🇷 Português</h2>
+      <p><strong>PollenHours</strong> é uma pipeline mobile-first de vídeo com IA feita para rodar no <strong>Termux (Android)</strong>.</p>
+      <p>Ela automatiza três etapas principais:</p>
+      <ol>
+        <li>Gerar prompts a partir de um roteiro</li>
+        <li>Gerar imagens com IA em lote</li>
+        <li>Renderizar o vídeo final em MP4 no Android</li>
+      </ol>
+
+      <p><strong>Fluxo</strong></p>
+      <ul>
+        <li><code>roteiro.txt</code> → roteiro base</li>
+        <li><code>gerar_prompts.py</code> → cria os prompts</li>
+        <li><code>gerar_imagens_g4f.py</code> → gera/baixa as imagens</li>
+        <li><code>editar_video.py</code> → renderiza o MP4 final</li>
+      </ul>
+
+      <p><strong>Recursos principais</strong></p>
+      <ul>
+        <li>Geração automática de prompts</li>
+        <li>Geração de imagens em lote</li>
+        <li>Log de tempo por imagem</li>
+        <li>Preparação em 16:9</li>
+        <li>Exportação MP4 no Android</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Repository</h2>
+      <p>
+        GitHub repo: <a href="https://github.com/aghartavault-ship-it/PollenHours">PollenHours</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
